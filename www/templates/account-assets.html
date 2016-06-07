@@ -1,0 +1,186 @@
+<ion-view class="account_assets_view">
+  <ion-header-bar class="header_bar dark">
+    <button class="button button-icon button-clear icon ion-chevron-left" id="btnBack" ng-click="goBack()">
+    </button>
+
+    <div class="title">
+      Wallet
+    </div>
+
+    <!--button class="button button-icon button-clear ion-ios-gear-outline pull-right" id="btnSetting" ng-click="goSetting()">
+    </button-->
+  
+  </ion-header-bar>
+
+  <ion-header-bar class="bar-light bar-subheader" style="background:#000;">
+
+      <label class="item item-input item-select" style="width:100%;">
+        <select>
+          <option selected>USD</option>
+          <option>BTC</option>
+          <option>ETH</option>
+        </select>
+
+        <div class="input-label">
+          Account Value : $1324
+        </div>
+      </label>
+
+  </ion-header-bar>
+
+  <ion-content class="padding">
+
+    <div class="list">
+      <a class="item item-icon-left" href="#">
+          <i class="icon ion-social-usd" style="color:gold;"></i>
+          <div class="row">
+            <div class="col-33"
+              <h4 class="progress">US Doller</h4>
+              <p style="color:#646464;">$ 1265</p>
+            </div>
+            <div class="col-33">
+            </div>
+            <div class="col-33">
+            </div>
+          </div>
+      </a>
+
+      <a class="item item-icon-left" href="">
+          <i class="icon ion-social-bitcoin" style="color:gold;"></i>
+          <div class="row">
+            <div class="col-33"
+              <h4 class="progress">Bitcoins</h4>
+              <p style="color:#646464;">$ 3.43</p>
+            </div>
+            <div class="col-33">
+              <button class="button button-small button-calm" ng-click="openBuyModal()">Buy</button>
+              <button class="button button-small button-assertive" ng-click="">Sell</button>
+            </div>
+            <div class="col-33">
+              <div class="item-note">
+                1B = 422$
+              </div>
+              <br />
+              <div style="font-size:12px; background:#009688; line-height: 15px; text-align:center; color:white;">
+                Buy Single
+              </div>
+            </div>
+          </div>
+      </a>
+
+      <a class="item item-icon-left" href="">
+          <i class="icon ion-social-euro" style="color:gold;"></i>
+          <div class="row">
+            <div class="col-33"
+              <h4 class="progress">Etherium</h4>
+              <p style="color:#646464;">$ 143.4</p>
+            </div>
+            <div class="col-33">
+              <button class="button button-small button-calm" ng-click="openBuyModal()">Buy</button>
+              <button class="button button-small button-assertive" ng-click="">Sell</button>
+            </div>
+            <div class="col-33">
+              <div class="item-note">
+                1B = 422$
+              </div>
+              <br />
+              <div style="font-size:12px; background:#009688; line-height: 15px; text-align:center; color:white;">
+                Buy Single
+              </div>
+            </div>
+          </div>
+      </a>
+
+    </div>
+
+  </ion-content>
+</ion-view>
+
+<script id="templates/buyModal.html" type="text/ng-template">
+  <ion-modal-view class="buyModal padding" style="">
+    <div class="row">
+      <div class="col-50"
+        <h4 class="">Buy Bitcoin</h4>
+        <p style="color:#646464;">$ 3.4.4</p>
+      </div>
+      <div class="col-50">
+        <div class="item-note">
+          1E = 12.29$
+        </div>
+        <br />
+        <div style="font-size:12px; background:#E91E63; line-height: 15px; text-align:center; color:white;">
+          Sell Single
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-33">
+        <h4 class="">Quality</h4>
+      </div>
+      <div class="col-33">
+        <input type="text" value="2.5" style="width:50px;" />
+      </div>
+      <div class="col-33">
+        <div class="btnModal">
+          Max : 3.245
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-33">
+        <h4 class="">Price</h4>
+      </div>
+      <div class="col-33">
+        <input type="text" value="452.42" style="width:50px;" />
+      </div>
+      <div class="col-33">
+      </div>
+    </div>
+
+    <div class="row" style="text-align:center; display:inline-block; margin-top:10px;">
+      <div class="btnModal" style="width:60%;">
+        Send Limit
+      </div>
+    </div>
+
+    <div class="row" style="text-align:center; display:inline-block; margin-top:10px;">
+      <div class="btnModal" style="width:90%;">
+        Safe Market Order
+      </div>
+    </div>
+
+    <h4 style=" margin-top:15px;">Limit at Price</h4>
+
+    <div class="row" style="text-align:center; margin-top:10px;">
+      <div class="col-25">
+        <div class="btnModal">
+          -$0.10
+        </div>
+      </div>
+      <div class="col-25">
+        <div class="btnModal">
+          -$0.50
+        </div>
+      </div>
+      <div class="col-25">
+        <div class="btnModal">
+          -$1.00
+        </div>
+      </div>
+      <div class="col-25">
+        <div class="btnModal">
+          -$5.00
+        </div>
+      </div>
+    </div>
+
+
+  </ion-modal-view>
+</script>
+
+
+
+
+

@@ -1,0 +1,306 @@
+/* Empty. Add your own CSS if you like */
+
+.center{
+    text-align:center;
+}
+
+i {
+	font-style: italic !important;
+}
+
+.ylue {
+	color: #2bde72;
+}
+
+.error {
+    color: #f00;
+}
+
+.inline-row {
+    width:100%; 
+    display:inline-block;
+}
+
+/******* Login Page ********/
+
+.login_page {
+    background-image: url("../img/bk1.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #012839;
+
+	color: white;
+}
+
+.login_page .bar-header {
+    background-color: transparent;
+    background-image: none;
+    border-bottom: 0px;
+}
+
+.login_page .bar-header button {
+	color: #2ADE73;
+}
+
+.login_page ion-content {
+	padding: 10px 20px;
+}
+
+.login_page .bottom_bar {
+    /*position: absolute;
+    bottom: 15px;
+    left: 0px;
+    right: 0px;*/
+
+    font-size: 12px;
+	padding: 0px 30px;
+    margin-top: 240px;
+}
+
+.login_page .bottom_bar .row {
+	text-align:center; 
+	display:inline-block; 
+	padding:0px;
+}
+
+.login_page .button.btnLogin {
+	border: 2px solid #2ADE73;
+	margin-top: 10px;
+	background: #2bde72;
+	color: #fff;
+	width: 100%;
+}
+
+.login_page .button.btnSignup {
+	border: 2px solid #2ADE73;
+	margin-top: 10px;
+	background: #012839;
+	color: #2ADE73;
+	width: 100%;
+}
+
+.login_page .form label.item {
+    background: transparent;
+    border: 0px;
+    width: 100%;
+    padding-left: 0px;
+    border-bottom: 1px solid #7bc623;
+}
+
+.login_page .form label.item i {
+    margin: 0px 14px;
+    color: white;
+}
+
+.login_page .form label.item input {
+	color: white;
+}
+
+/******* Signup Page ********/
+
+.signup_page {
+    background-image: url("../img/bk1.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #012839;
+
+	color: white;
+}
+
+.signup_page .bar-header {
+    background-color: transparent;
+    background-image: none;
+    border-bottom: 0px;
+}
+
+.signup_page .bar-header button {
+	color: #2ADE73;
+}
+
+.signup_page ion-content {
+	padding: 10px 20px;
+}
+
+.signup_page .bottom_bar {
+    /*position: absolute;
+    bottom: 15px;
+    left: 0px;
+    right: 0px;*/
+    font-size: 12px;
+	padding: 0px 30px;
+    margin-top: 220px;
+}
+
+.signup_page .bottom_bar .row {
+	text-align:center; 
+	display:inline-block; 
+	padding:0px;
+}
+
+.signup_page .button.btnSignup {
+	width: 100%;
+}
+
+.signup_page .form label.item {
+    background: transparent;
+    border: 0px;
+    width: 100%;
+    padding-left: 0px;
+    border-bottom: 1px solid #7bc623;
+}
+
+.signup_page .form label.item i {
+    margin: 0px 14px;
+    color: white;
+}
+
+.signup_page .form label.item input {
+	color: white;
+}
+
+/********* Tab Style **********/
+
+ion-content.has-tabs-top {
+    top: 115px;
+}
+
+.tabs-bottom > .tabs, .tabs.tabs-top {
+	height: 70px;
+}
+
+.tabs-icon-top > .tabs .tab-item, .tabs-icon-top.tabs .tab-item, .tabs-icon-bottom > .tabs .tab-item, .tabs-icon-bottom.tabs .tab-item {
+	height: 70px;
+	padding: 10px;
+	background-color: #002639;
+	color: white;
+	max-width: none;
+	opacity: 1.0;
+}
+
+ion-tabs.tabs-striped.tabs-color-active-positive .tab-item.tab-item-active, 
+ion-tabs.tabs-striped.tabs-color-active-positive .tab-item.active,
+ion-tabs.tabs-striped.tabs-color-active-positive .tab-item.activated {
+    background: #2ADE73;
+    color: #002639;
+    margin-top: 0px;
+}
+
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active,
+ion-tabs.tabs-color-active-positive .tab-item.active,
+ion-tabs.tabs-color-active-positive .tab-item.activated {
+	background: #2ADE73;
+	color: #002639;
+
+}
+
+.account_tabs.tabs-bottom > .tabs, .account_tabs.tabs.tabs-top {
+	height: 40px !important;
+	top: 88px;
+}
+
+.account_tabs.tabs-icon-top > .tabs .tab-item, .account_tabs.tabs-icon-top.tabs .tab-item, .account_tabs.tabs-icon-bottom > .tabs .tab-item, .account_tabs.tabs-icon-bottom.tabs .tab-item {
+	height: 40px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/********* Tab Account - Assets View **********/
+
+.account_assets_view {
+    background: #f5f5f5;
+}
+
+.account_assets_view ion-content.has-tabs-top {
+    top: 130px !important;
+}
+
+.account_assets_view .bar-header {
+    background-color: #002639;
+    background-image: none;
+    border-bottom: 0px;
+    color: #f5f5f5;
+}
+
+.account_assets_view .bar-header button {
+    color: #2ADE73;
+}
+
+/********* Tab Account - Transactions View **********/
+
+.account_trans_view {
+    background: #f5f5f5;
+}
+
+.account_trans_view ion-content.has-tabs-top {
+    top: 130px !important;
+}
+
+.account_trans_view .bar-header {
+    background-color: #002639;
+    background-image: none;
+    border-bottom: 0px;
+    color: #f5f5f5;
+}
+
+.account_trans_view .bar-header button {
+    color: #2ADE73;
+}
+
+.account_trans_view .filled {
+    color: #8bba00;
+}
+
+.account_trans_view .open {
+    color:  #002639;
+}
+
+.account_trans_view .cleared {
+	color: #E92002;
+}
+
+/* BuyModal */
+
+.buyModal.modal {
+    background: #f5f5f5;
+    width: 80%;
+    left: 10%;
+    min-height: 50%;
+    top: 30%;
+    border: 2px solid #d6d6d6;
+    border-radius: 10px;
+}
+
+.buyModal.modal .btnModal {
+	line-height: 30px;
+    height: 30px;
+    background: #03A9F4;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+ 	display:inline-block;
+ 	padding: 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

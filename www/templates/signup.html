@@ -1,0 +1,71 @@
+<ion-view class="signup_page">
+  <ion-header-bar class="header_bar">
+    <button class="button button-icon button-clear icon ion-chevron-left" id="btnBack" ng-click="goBack()">
+    </button>
+
+    <!--div class="h1 title">
+      Login
+    </div-->
+
+    <!--button class="button button-icon button-clear ion-ios-gear-outline pull-right" id="btnSetting" ng-click="goSetting()">
+    </button-->
+	
+  </ion-header-bar>
+
+  <ion-content style="" scroll="true">
+
+    <div class="error">{{msg}}</div>
+
+  	<div class="row inline-row" style="margin-top: 40px; font-size: 15px;">
+  		EMAIL SIGN UP
+  	</div>
+
+  	<div class="form" style="margin-top: 5px;">
+      <div class="row">
+        <label class="item item-input" style="border-top: 1px solid #7bc623;">
+            <i class="icon ion-person placeholder-icon"></i>
+            <input type="text" placeholder="Name" ng-model="user.name">
+        </label>
+      </div>
+
+      <div class="row">
+        <label class="item item-input">
+            <i class="icon ion-email placeholder-icon"></i>
+            <input type="email" placeholder="Email" ng-model="user.email">
+        </label>
+      </div>
+
+      <div class="row">
+        <label class="item item-input">
+            <i class="icon ion-android-unlock placeholder-icon"></i>
+            <input type="password" placeholder="Password" ng-model="user.password">
+        </label>
+      </div>
+
+      <div class="row">
+        <label class="item item-input">
+            <i class="icon ion-android-lock placeholder-icon"></i>
+            <input type="password" placeholder="Retype password" ng-model="user.repassword">
+        </label>
+      </div>
+
+  	</div>
+
+    <div class="bottom_bar">
+      <div class="row" style="margin-bottom:10px;">
+        <button class="button button-balanced btnSignup" ng-click="goSignUp();">
+          Sign up
+        </button>
+      </div>
+
+      <div class="row">
+        By signing up with <span class="ylue">ApWallet</span>, you agree with our
+      </div>
+
+      <div class="row" style="margin-bottom:5px;">
+        <span class="ylue">Terms of Use</span> and <span class="ylue">Privacy Policy</span>
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>
