@@ -195,7 +195,7 @@ ion-tabs.tabs-color-active-positive .tab-item.activated {
 
 .account_tabs.tabs-bottom > .tabs, .account_tabs.tabs.tabs-top {
 	height: 40px !important;
-	top: 88px;
+	top: 107px !important;
 }
 
 .account_tabs.tabs-icon-top > .tabs .tab-item, .account_tabs.tabs-icon-top.tabs .tab-item, .account_tabs.tabs-icon-bottom > .tabs .tab-item, .account_tabs.tabs-icon-bottom.tabs .tab-item {
@@ -211,7 +211,8 @@ ion-tabs.tabs-color-active-positive .tab-item.activated {
 }
 
 .account_assets_view ion-content.has-tabs-top {
-    top: 130px !important;
+    top: 147px !important;
+    bottom: 70px;
 }
 
 .account_assets_view .bar-header {
@@ -232,7 +233,8 @@ ion-tabs.tabs-color-active-positive .tab-item.activated {
 }
 
 .account_trans_view ion-content.has-tabs-top {
-    top: 130px !important;
+    top: 147px !important;
+    bottom: 70px;
 }
 
 .account_trans_view .bar-header {
