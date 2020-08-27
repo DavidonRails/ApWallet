@@ -1,63 +1,55 @@
 <ion-view class="login_page">
-  <ion-header-bar class="header_bar">
-    <!--button class="button button-icon button-clear icon ion-chevron-left" id="btnBack" ng-click="goBack()">
-    </button-->
+    <ion-header-bar class="header_bar">
 
-    <!--div class="h1 title">
-      Login
-    </div-->
 
-    <!--button class="button button-icon button-clear ion-ios-gear-outline pull-right" id="btnSetting" ng-click="goSetting()">
-    </button-->
-	
-  </ion-header-bar>
+    </ion-header-bar>
 
-  <ion-content style="" scroll="true">
+    <ion-content style="" scroll="true">
 
-    <div class="error">{{msg}}</div>
+        <div class="error">{{msg}}</div>
 
-  	<div class="form" style="margin-top: 50px;">
-      <div class="row">
-        <label class="item item-input" style="border-top: 1px solid #7bc623;">
+        <div class="form" style="margin-top: 50px;">
+            <div class="row">
+                <label class="item item-input" style="border-top: 1px solid #7bc623;">
             <i class="icon ion-person placeholder-icon"></i>
             <input type="text" placeholder="Name" ng-model="user.username">
         </label>
-      </div>
+            </div>
 
-      <div class="row">
-        <label class="item item-input">
+            <div class="row">
+                <label class="item item-input">
             <i class="icon ion-android-unlock placeholder-icon"></i>
             <input type="password" placeholder="Password" ng-model="user.password">
         </label>
-      </div>
-  	</div>
+            </div>
+        </div>
 
-    <div class="bottom_bar">
-      <div class="row" style="">
-        <button class="button button-block btnLogin" ng-click="goLogIn()">
+        <div class="bottom_bar">
+            <div class="row" style="">
+                <button class="button button-block btnLogin" ng-click="goLogIn()">
           Log in
         </button>
-      </div>
+            </div>
 
-      <div class="row" style="">
-        <button class="button button-block btnSignup" ng-click="goSignup()">
+            <div class="row" style="">
+                <button class="button button-block btnSignup" ng-click="goSignup()">
           Sign up
         </button>
-      </div>
+            </div>
 
-      <div class="row">
-        By signing up with <span class="ylue">ApWallet</span>, you agree with our
-      </div>
+            <div class="row">
+                By signing up with <span class="ylue">ApWallet</span>, you agree with our
+            </div>
 
-      <div class="row" style="margin-bottom:5px;">
-        <span class="ylue">Terms of Use</span> and <span class="ylue">Privacy Policy</span>
-      </div>
+            <div class="row" style="margin-bottom:5px;">
+                <span class="ylue">Terms of Use</span> and <span class="ylue">Privacy Policy</span>
+            </div>
 
-      <div class="row">
-        Forgot Password? <a href="#/forgot" style="text-decoration:none;"><span class="ylue">Click Here</span></a>
-      </div>
+            <div class="row">
+                Forgot Password? <a href="#/forgot" style="text-decoration:none;"><span class="ylue">Click Here</span></a>
+            </div>
 
-    </div>
+        </div>
 
-  </ion-content>
+    </ion-content>
 </ion-view>
